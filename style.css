@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    padding-top: 50px;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 0;
+    text-decoration: none;
+    font-family: 'Open Sans', 'Amaranth';
+
+}
+
+li a:hover {
+    background-color: rgb(160, 160, 160);
+    color: white;
+
+}
+
+h1 {
+    font-family: 'Amaranth', 'Open Sans';
+    margin: 0 100% 40px 0;
+    font-size: 150%
+}
+
+body {
+    padding: 0 0 0 0;
+    margin: -16px 0 0 0;
+}
