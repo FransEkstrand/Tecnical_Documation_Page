@@ -22,12 +22,13 @@ li a:hover {
     color: white;
 
 }
-
+*/
 h1 {
     font-family: 'Amaranth', 'Open Sans';
-    margin: 0 100% 40px 0;
+    margin: 25px 100% 40px 54px;
     font-size: 150%
-}
+
+}/*
 
 body {
     padding: 0 0 0 0;
@@ -38,8 +39,13 @@ body {
     min-width: 290px;
     color: #4d4e53;
     background-color: #ffffff;
-    font-family: 'Open Sans', Arial, sans-serif;
+    /* font-family: 'Open Sans', Arial, sans-serif; */
     line-height: 1.5;
+    display: flex;
+    align-content: center;
+}
+h2 {
+    font-size: 40px;
 }
 
 #navbar {
@@ -51,6 +57,10 @@ body {
     height: 100%;
     border-right: solid;
     border-color: rgba(0, 22, 22, 0.4)
+}
+
+.nav-link {
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 header {
@@ -173,5 +183,10 @@ code {
 .kk {
     margin-left: 25%;
     padding: 1px 16px;
-    height: 1000px;
+    height: 100px;
+}
+
+.text-fixing {
+    font-size: 28px;
+    margin-bottom: 350px;
 }
