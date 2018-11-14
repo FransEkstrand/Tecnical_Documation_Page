@@ -25,10 +25,11 @@ li a:hover {
 */
 h1 {
     font-family: 'Amaranth', 'Open Sans';
-    margin: 25px 100% 40px 54px;
+    margin: 25px 100% 40px 0px;
     font-size: 150%
+}
 
-}/*
+/*
 
 body {
     padding: 0 0 0 0;
@@ -44,6 +45,7 @@ body {
     display: flex;
     align-content: center;
 }
+
 h2 {
     font-size: 40px;
 }
@@ -180,11 +182,11 @@ code {
     }
 }
 
-.kk {
+/* .kk {
     margin-left: 25%;
     padding: 1px 16px;
     height: 100px;
-}
+} */
 
 .text-fixing {
     font-size: 28px;
