@@ -22,9 +22,9 @@ li a:hover {
     color: white;
 
 }
-*/
+
 h1 {
-    font-family: 'Amaranth', 'Open Sans';
+    font-family: 'Open Sans', Arial, sans-serif;
     margin: 25px 100% 40px 0px;
     font-size: 150%
 }
@@ -130,7 +130,7 @@ code {
     word-wrap: normal;
     line-height: 2;
     background-color: #f7f7f7;
-    padding: 15px;
+    /* padding: 15px; */
     margin: 10px;
     border-radius: 5px;
 }
