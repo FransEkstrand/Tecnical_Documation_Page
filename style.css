@@ -22,12 +22,20 @@ li a:hover {
     color: white;
 
 }
-
+ */
 h1 {
-    font-family: 'Open Sans', Arial, sans-serif;
-    margin: 25px 100% 40px 0px;
-    font-size: 150%
+    font-family: 'Pacifico', 'Open-Sans';
+    margin: 0px 0px 40px -35px;
+    font-size: 150%;
+    color: white;
 }
+
+.fa-instagram {
+    font-size: 250%;
+    margin: 25px 0 0 -25px;
+    color: white;
+}
+
 
 /*
 
@@ -39,7 +47,7 @@ html,
 body {
     min-width: 290px;
     color: #4d4e53;
-    background-color: #ffffff;
+    background-color: rgb(246, 247, 245);
     /* font-family: 'Open Sans', Arial, sans-serif; */
     line-height: 1.5;
     display: flex;
@@ -48,21 +56,29 @@ body {
 
 h2 {
     font-size: 40px;
+    font-family: 'Fredoka One', cursive;
 }
 
 #navbar {
     position: fixed;
     min-width: 290px;
-    top: 0px;
+    top: -17px;
     left: 0px;
     width: 300px;
-    height: 100%;
+    height: 120%;
     border-right: solid;
-    border-color: rgba(0, 22, 22, 0.4)
+    border-bottom: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+
 }
 
 .nav-link {
     font-family: 'Open Sans', Arial, sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
 }
 
 header {
@@ -83,10 +99,11 @@ header {
     height: 88%;
     overflow-y: auto;
     overflow-x: hidden;
+
 }
 
 #navbar li {
-    color: #4d4e53;
+
     border: 1px solid;
     border-bottom-width: 0px;
     padding: 8px;
@@ -96,12 +113,16 @@ header {
     left: -50px;
     width: 100%;
 
+
+
+
 }
 
 #navbar a {
-    color: #4d4e53;
+    color: rgb(228, 219, 220);
     text-decoration: none;
     cursor: pointer;
+    color: rgb(115, 76, 61);
 }
 
 #main-doc {
@@ -182,13 +203,55 @@ code {
     }
 }
 
-/* .kk {
-    margin-left: 25%;
-    padding: 1px 16px;
-    height: 100px;
-} */
-
 .text-fixing {
-    font-size: 28px;
-    margin-bottom: 350px;
+    font-size: 18px;
+    font-family: 'Volkhov', serif;
+}
+
+.text-fixing2 {
+    font-size: 18px;
+    margin-bottom: 150px;
+    font-family: 'Volkhov', serif;
+}
+
+.red {
+    background-color: rgb(232, 71, 98);
+}
+
+.yellow {
+    background-color: rgb(253, 220, 91);
+}
+
+.green {
+    background-color: rgb(176, 226, 196);
+}
+
+.blue {
+    background-color: rgb(100, 178, 243);
+}
+
+.brown2 {
+    background-color: rgb(115, 76, 61);
+    width: 263px;
+}
+
+
+#navbar .red:hover {
+    background-color: rgb(246, 247, 245);
+}
+
+#navbar .yellow:hover {
+    background-color: rgb(246, 247, 245);
+}
+
+#navbar .green:hover {
+    background-color: rgb(246, 247, 245);
+}
+
+#navbar .blue:hover {
+    background-color: rgb(246, 247, 245);
+}
+
+#navbar .brown:hover {
+    background-color: rgb(246, 247, 245);
 }
