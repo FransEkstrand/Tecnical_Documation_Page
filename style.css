@@ -1,54 +1,23 @@
-/* ul {
-    list-style-type: none;
-    padding-top: 50px;
-    width: 20%;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 0 8px 0;
-    text-decoration: none;
-    font-family: 'Open Sans', 'Amaranth';
-
-}
-
-li a:hover {
-    background-color: rgb(160, 160, 160);
-    color: white;
-
-}
- */
 h1 {
     font-family: 'Pacifico', 'Open-Sans';
-    margin: 0px 0px 40px -35px;
+    margin: 30px 0px 0px -35px;
     font-size: 150%;
     color: white;
 }
 
 .fa-instagram {
     font-size: 250%;
-    margin: 25px 0 0 -25px;
+    margin: 10px 0 30px -25px;
     color: white;
 }
 
 
-/*
 
-body {
-    padding: 0 0 0 0;
-    margin: -16px 0 0 0;
-} */
 html,
 body {
     min-width: 290px;
     color: #4d4e53;
     background-color: rgb(246, 247, 245);
-    /* font-family: 'Open Sans', Arial, sans-serif; */
     line-height: 1.5;
     display: flex;
     align-content: center;
@@ -57,6 +26,7 @@ body {
 h2 {
     font-size: 40px;
     font-family: 'Fredoka One', cursive;
+    padding: 30px 0px 0px 0px;
 }
 
 #navbar {
@@ -68,6 +38,7 @@ h2 {
     height: 120%;
     border-right: solid;
     border-bottom: solid;
+    border-color: rgba(0, 22, 22, 0.4);
     border-color: rgba(0, 22, 22, 0.4);
 
 }
